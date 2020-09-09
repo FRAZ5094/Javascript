@@ -18,7 +18,7 @@ app.post("/api", (request, response) => {
     
     response.json({
         status: "success",
-        timestamp:timestamp,
+        timestamp: timestamp,
         latitude: data.lat,
         longitude: data.lon
     });
